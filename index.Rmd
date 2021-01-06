@@ -2,6 +2,7 @@
 title: "Is there really a drought in Istanbul?"
 output: 
     html_document:
+        theme: united   
         css: style.css
 ---
 
@@ -118,7 +119,7 @@ ggplot(water.levels, aes(as.Date(DATE), Average.water)) +
 ```
 
 This plot shows the average $m^3$ of water each individual have over the years in the city. 
-Clearly, the recent levels are alarming as the average levels are under 20 $m^3$/individual and there is a clear decreasing trend over the years. 
+Clearly, the recent levels are alarming as the average levels are under 20 $m^3$/individual and there is a clear decreasing trend over the years. Admittedly, it is not as bad as 2007 or 2008 but the gradual decrease is still worrying and this problem must be solved as soon as possible (building new dams) and till then people need to be careful about the precious water resources.
 
 ### Conclusions (TLDR)
 
@@ -131,4 +132,4 @@ Clearly, the recent levels are alarming as the average levels are under 20 $m^3$
 - There is no official source of the population information, so I calculated it using linear regression.
 
 ### Code availability
-You can find all resources and code snippets here: [link]()
+You can find all resources and code snippets here: [link](https://github.com/eonurk/istanbul-drought-analyses)
