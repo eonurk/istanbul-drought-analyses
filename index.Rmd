@@ -128,9 +128,9 @@ Clearly, the recent levels are alarming as the average levels are under 20 $m^3$
 - People should be more thoughtful about their water consumptions (at least till having a new dam)
 
 ### Limitations
-- The dam reserve level data is provided with 45 days latency, therefore it is not the best indicator of a drought of the current day. However, I think it is a good indicator of how is Istanbul doing in general.
+- The dam reserve level data is provided with 45 days latency, therefore it is not the best indicator of a drought of the current day. However, I think it is a good indicator of how Istanbul is doing in general.
 
-- There is no official source of the population information, so I calculated it using linear regression.
+- There is no official source of the population information before 2007 and 2020, so I calculated them using linear regression.
 
 ### Code availability
 You can find all resources and code snippets here: [link](https://github.com/eonurk/istanbul-drought-analyses)
